@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background:radial-gradient(rgb(207, 200, 216),rgb(181, 165, 185),rgb(194, 174, 204),rgb(213, 187, 220),rgb(190, 169, 206)) ;
+    text-align: center;
+}
+.inputDiv{
+    padding-top: 10vh;
+    height: 15vh;
+}
+input{
+    width: 30%;
+    height:13%;
+    padding: 14px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+button{
+     background:radial-gradient(rgb(50, 7, 35),rgb(49, 10, 45),rgb(50, 11, 50),rgb(61, 13, 45));
+    padding: 12px 30px;
+    color: aliceblue;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    cursor:pointer;
+    font-weight: bold;
+}
+button:hover{
+   background:radial-gradient(rgb(131, 48, 102),rgb(160, 57, 149),rgb(140, 43, 140),rgb(140, 56, 112));
+        
+}
+.Lists{
+    margin-top: 60px;
+    padding-right:60px;
+    width: 45%;
+    height: 73%;
+    position: absolute;
+    left: 26%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+}
+.div1{
+    background-color: rgb(84, 16, 96);
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+}
+p{
+    padding-left: 30px;
+    font-size: 20px;
+}
+span{
+    font-size: 20px;
+}
