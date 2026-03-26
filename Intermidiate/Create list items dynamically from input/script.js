@@ -8,8 +8,7 @@ Btn.addEventListener("click",(e)=>{
        return
     }
     else{
-        document.querySelector(".heading").style.display="none"
-        list.innerHTML +=`<li>${TextValue}</li>`
-        
+       list.innerHTML +=`<li>${TextValue}</li> `
     }
+     
 })
